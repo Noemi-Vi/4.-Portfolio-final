@@ -273,6 +273,9 @@ section {
   border-radius: 85px;
   filter: grayscale(1);
 }
+#about .img-animate:hover {
+  filter: none;
+}
 #about .texto {
   max-width: 57%;
   margin-top: 2em;
@@ -538,9 +541,9 @@ section {
     align-items: center;
   }
   #portfolio .module,
-#portfolio .module-sillas,
-#portfolio .module-bestiary,
-#portfolio .module-planet {
+  #portfolio .module-sillas,
+  #portfolio .module-bestiary,
+  #portfolio .module-planet {
     width: 90%;
   }
 }
@@ -554,9 +557,9 @@ section {
     align-items: baseline;
   }
   #portfolio .module,
-#portfolio .module-sillas,
-#portfolio .module-bestiary,
-#portfolio .module-planet {
+  #portfolio .module-sillas,
+  #portfolio .module-bestiary,
+  #portfolio .module-planet {
     width: calc(132% / 4);
   }
   #portfolio .section {

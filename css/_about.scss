@@ -25,6 +25,9 @@
     border-radius: 85px;
     filter: grayscale(1);
   }
+  .img-animate:hover {
+    filter: none;
+  }
   .texto {
     max-width: 57%;
     margin-top: 2em;
