@@ -1,0 +1,81 @@
+#services {
+  background: url(../src/jirafa02.jpg);
+  background-size: cover;
+  color: var(--blanco);
+  .centrar-ventana {
+    width: 100%;
+    height: 100vh;
+    background: var(--blanco);
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .titular-positivo {
+    width: 100%;
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--negro);
+  }
+  .centrar-section {
+    padding: 2em 5em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .titular-services-izq,
+  .titular-services-der {
+    width: 400px;
+    height: 370px;
+    padding: 1em;
+    margin: 0em 0.5em;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--negro);
+    border: 4px solid var(--negro);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .titular-services-izq {
+    text-align: right;
+    align-items: center;
+  }
+  .titular-services-der {
+    text-align: left;
+    align-items: flex-start;
+  }
+  h1 {
+    font-weight: 200;
+    text-align: right;
+  }
+  @media (max-width: 620px) {
+    .centrar-section {
+      padding: 2em 0;
+    }
+  }
+
+  @media (max-width: 855px) {
+    .titular-services-izq {
+      margin: 0.5em 0.5em;
+      width: 370px;
+      height: 125px;
+      padding: 0.5em;
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .titular-services-der {
+      width: 370px;
+      height: 267px;
+      align-items: center;
+      font-size: 1.5em;
+    }
+    .centrar-section {
+      flex-flow: row wrap;
+    }
+  }
+}

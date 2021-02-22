@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 👩🏽‍💻Animal </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <script src="https://creepyface.io/creepyface.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" defer></script>
+    <script src="js/popup.js" defer></script>
+    <script src="js/app.js " defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <a href="#home" class="nav-logo">
+                <img src="src/logo-negro.png" alt="logonegro" class="img-logo" loading="lazy">
+            </a>
+
+            <ul>
+                <li><a href="#about" class="li-text">¿Quién soy?</a></li>
+                <li><a href="#services" class="li-text">Servicios</a></li>
+                <li><a href="#portfolio" class=" li-text">Portfolio</a></li>
+                <li><a href="#contact" class="li-text">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+        <h1 class="h1-hide">
+            Home
+        </h1>
+        <div class="content-home">
+            <img src="src/logo-blanco.png" alt="logo blanco" class="logo" loading="lazy">
+            <div class="container">
+                <div class="text"></div>
+            </div>
+        </div>
+        <a class="flecha" href="#about">
+            <img src="src/arrow.svg" alt="flecha" class="arrow" loading="lazy">
+        </a>
+
+
+
+    </section>
+    <!-- ¿Quién soy?-->
+
+    <section id="about">
+        <h1 class="h1-hide">
+            Sobre mí
+        </h1>
+
+        <div class="titular-about">
+
+            <img class="img-animate" src="https://creepyface.io/img/170/serious" alt="crepy" data-creepyface
+                data-src-hover="https://creepyface.io/img/170/hover" data-src-look-0="https://creepyface.io/img/170/0"
+                data-src-look-45="https://creepyface.io/img/170/45" data-src-look-90="https://creepyface.io/img/170/90"
+                data-src-look-135="https://creepyface.io/img/170/135"
+                data-src-look-180="https://creepyface.io/img/170/180"
+                data-src-look-225="https://creepyface.io/img/170/225"
+                data-src-look-270="https://creepyface.io/img/170/270"
+                data-src-look-315="https://creepyface.io/img/170/315" />
+
+            <p class="texto">Bienvenid@ a mi portfolio, mi nombre es Noemí, soy una diseñadora manchega con sede
+                en
+                Madrid,
+                especializada en UX/UI y en animación para microinteracciones. </p>
+        </div>
+        <a class="flecha" href="#services">
+            <img src="src/arrow.svg" alt="flecha" class="arrow" loading="lazy">
+        </a>
+
+
+        <!-- ¿Quién soy?-->
+
+    </section>
+    <section id="services">
+        <h1 class="h1-hide">
+            Servicios
+        </h1>
+        <div class="centrar-ventana">
+            <h1 class="titular-positivo">¿Qué necesitas? </h1>
+            <div class="centrar-section">
+                <p class="titular-services-izq">Cuenta conmigo si necesitas...</p>
+                <div class="titular-services-der">
+                    <h1>Una página web</h1>
+                    <h1><b>El diseño de una app</b></h1>
+                    <h1>Animaciones</h1>
+                    <h1><b>Interacciones</b></h1>
+                </div>
+
+
+            </div>
+        </div>
+        <a class="flecha" href="#portfolio">
+            <img src="src/arrow_black.svg" alt="flecha" class="arrow" loading="lazy">
+        </a>
+    </section>
+    <!-- Portfolio-->
+    <section id="portfolio">
+        <h1 class="titular-positivo">Portfolio</h1>
+        <div class="portfolio-module">
+            <div class="module">
+                <img class="img-module" src="src/captura.png" alt="Pixar" loading="lazy">
+                <p class="p-module">Pixar</p>
+                <hr>
+            </div>
+            <div class="lightbox">
+                <i class="fas fa-times" id="pixar"></i>
+                <iframe src="https://noemi-vi.github.io/Practica-1-Pixar/"></iframe>
+            </div>
+            <div class="module-sillas">
+                <img class="img-module" src="src/captura02.png" alt="Sillas" loading="lazy">
+                <p class="p-module">STKML sillas </p>
+                <div class="lightbox-sillas">
+                    <i class=" fas fa-times" id="sillas"></i>
+                    <iframe src="https://noemi-vi.github.io/Practica-2-STKLM/"></iframe>
+                </div>
+
+                <hr>
+            </div>
+            <div class="module-bestiary">
+                <img class="img-module" src="src/captura03.png" alt="Bestiary" loading="lazy">
+                <p class="p-module">Bestiary </p>
+                <div class="lightbox-bestiary">
+                    <i class="fas fa-times" id="bestiary"></i>
+                    <iframe src="https://bestiary.design/"></iframe>
+                </div>
+
+                <hr>
+            </div>
+            <div class="module-planet">
+                <img class="img-module" src="src/captura04.png" alt="Planet" loading="lazy">
+                <p class="p-module">Planet</p>
+                <div class="lightbox-planet">
+                    <i class=" fas fa-times" id="planet"></i>
+                    <iframe src="https://noemi-vi.github.io/vertical_planet/"></iframe>
+                </div>
+
+                <hr>
+            </div>
+
+        </div>
+        <a class="flecha" href="#contact">
+            <img src="src/arrow_black.svg" alt="flecha" class="arrow" loading="lazy">
+        </a>
+
+
+    </section>
+
+
+    <section id="contact">
+        <h1 class="h1-hide">
+            Contacto
+        </h1>
+        <div class="email">
+            <a class="a-email" href="mailto:nvillegas.uxui@gmail.com">nvillegas.uxui@gmail.com</a>
+            <ul class="rrss">
+                <li class="li-rss">
+                    <a href="https://www.linkedin.com/in/noemi-villegas-calonge/" title="Linkedin" target="_blank">
+                        <i class="fab fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="li-rss">
+                    <a href="https://github.com/Noemi-Vi" title="Github" target="_blank">
+                        <i class="fab fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="li-rss">
+                    <a href="https://dribbble.com/NOEMI_BD" title="Dribbble" target="_blank">
+                        <i class="fab fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="li-rss">
+                    <a href="https://www.instagram.com/_bestiary_design/" title="Instagram" target="_blank">
+                        <i class="fab fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="li-rss">
+                    <a href="https://www.behance.net/noemvillega" title="Behance" target="_blank">
+                        <i class="fab fab fab fa-behance"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  /* Colores principales */
+  --blanco: white;
+  --negro: black;
+  --borde-negro: #00000050;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+p a {
+  display: inline-flex;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+form,
+input,
+label,
+textarea,
+option,
+select {
+  font-size: inherit;
+  font-family: inherit;
+  background: transparent;
+  color: inherit;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: var(--negro);
+  color: var(--negro);
+  background: url(../src/jirafa03.png);
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: -65px;
+  z-index: 11px;
+}
+.h1-hide {
+  display: none;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titular-positivo {
+  width: 100%;
+  margin-top: 2em;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--negro);
+}
+
+.flecha {
+  bottom: 90px;
+  display: flex;
+  justify-content: center;
+  animation: arrow 1s ease-in-out infinite;
+  position: absolute;
+
+  @keyframes arrow {
+    0% {
+      transform: translate(0px, 50px);
+    }
+    50% {
+      transform: translate(0px, 60px);
+    }
+    100% {
+      transform: translate(0px, 50px);
+    }
+  }
+  .arrow {
+    width: 50px;
+    color: var(--blanco);
+  }
+  @media (max-width: 620px) {
+    body {
+      background: var(--negro);
+    }
+    ul {
+      min-width: 0;
+    }
+  }
+  @media (max-width: 855px) {
+    .flecha {
+      bottom: 90px;
+    }
+    .section {
+      height: none;
+    }
+  }
+}
